@@ -1,0 +1,20 @@
+package in.mindcraft.hibernateinheretance;
+
+public class SavingsAccount extends Account {
+	private int interestRate;
+	
+	
+	
+	public int getinterestRate() {
+		return interestRate;
+		
+		
+	}
+	
+	public void setInterestRate(int interestRate) {
+		this.interestRate = interestRate;
+	}
+	
+	
+
+}
